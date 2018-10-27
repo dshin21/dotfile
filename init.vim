@@ -35,6 +35,13 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
+set history=1000
+set undolevels=1000
+set visualbell
+set noerrorbells
+set nobackup
+set noswapfile
+
 let g:lightline = {'colorscheme': 'one'}
 
 "auto close {
