@@ -15,9 +15,11 @@ Plug 'https://github.com/junegunn/fzf.vim.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/airblade/vim-gitgutter.git'
+Plug 'https://github.com/w0rp/ale.git'
 
 call plug#end()
 
+let g:ale_completion_enabled = 1
 
 colorscheme onedark
 
@@ -41,6 +43,7 @@ set visualbell
 set noerrorbells
 set nobackup
 set noswapfile
+set number relativenumber    " toggle hybrid line numbers
 
 let g:lightline = {'colorscheme': 'one'}
 
